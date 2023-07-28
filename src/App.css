@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.menuWithLogo{
+height: 200px;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+#slipknotlogo{
+
+height: 160px;
+width: 35%;
+
+}
+
+.cards{
+
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+margin-top: 15px;
+
+}
+
+.main {
+  color: beige;
+  height: 725px;
+  width: 22%;
+  background-color:  #880808;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  border-style: solid;
+  background-image: url('./img/360_F_280194486_fg7cmvxQCy8rVkwKBUoiRbpTrx8N3kyZ.jpg');
+  border-color: #000;
+  box-shadow: 5px 5px 15px 5px #000000;
+  transition: all 0.5s ease-out;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.logo{
+
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 37px;
+
+}
+
+.logo img{
+
+height: 150px;
+width: 50%;
+
+}
+
+#corey {
+  margin-bottom: 15px;
+  display: flex;
+  height: 400px;
+  width: 90%;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #000;
+}
+
+.name {
+  text-align: center;
+  font-size: 25px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  
+}
+
+.name img{
+
+height: 30px;
+width: 30px;
+
+}
+
+
+
+.socialMedia {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+.socialMedia img{
+
+height: 50px;
+width: 50px
+
+}
+ 
+@media (max-width:830px) {
+  
+.cards{
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.main{
+
+width: 90%;
+
+}
+
+}
+
+/* End */
+
+/* that */
